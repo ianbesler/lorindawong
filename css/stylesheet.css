@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-= THIS WEBSITE DESIGNED AND BUILT WITH TENDER, LOVING CARE -=-=-=-=-=-
+-=-=-= ENTIRELY BY HAND AND JUST FOR YOU IN BUCOLIC PRINCETON, NEW JERSEY -=-=-=
+=-=-=-=-=-=- BY BESLER & SONS, LLC HTTPS://WWW.BESLERANDSONS.COM/ =-=-=-=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+html,body,header,main,footer {
+	width: 100%;
+}
+
+header,section,footer {
+	padding: 3%;
+}
+
+	header {
+		position: sticky;
+		top: 0;
+		z-index: 100;
+	}
+
+		h1,h2 {
+			cursor: pointer;
+		}
+
+	figure {
+		/*position: sticky;
+		top: 5%;
+		z-index: -1;*/
+		margin-left: 3%;
+		width: 50%;
+		height: 30vw;
+			background-size: contain;
+	}
+
+		/*img {
+			width: 100%;
+			height: 100%;
+		}*/
+
+	article {
+		margin-bottom: 2em;
+	}
+
+	h1,h2,h3,h4,p,li,h6 {
+		font-size: 4em;
+		font-weight: normal;
+	}
+
+		h3,h4 {
+			text-decoration: underline;
+		}
+
+			h3 {
+			}
+
+		p,h6 {
+			width: 70%;
+		}
+
+		@media screen and (max-width: 600px) {
+			p,ul {
+				width: auto;
+			}
+
+			p,li {
+				font-size: 2em;
+			}
+		}
+
+		ul {
+			width: 70%;
+			text-indent: 3em;
+		}
+
+			h4,p,li,h6 {
+				margin-top: 0.2em;
+				background-color: rgba(255,255,255,0.9);
+			}
+
+.font-size-zero {
+	font-size: 0;
+}
